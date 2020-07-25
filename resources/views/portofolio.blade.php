@@ -22,9 +22,10 @@
         font-size: 25px;
     }
 
-    .header{
+    .header {
         border-radius: 25px;
     }
+
 
 </style>
 @section('container')
@@ -38,39 +39,40 @@
 </div>
 <div class="container" style="">
     <div class="header mt-4 mb-4 pl-3 pt-3 pb-3 pr-3 bg-#222831 shadow-lg text-white">
-        <h1>Front End</h1>
-        HTML <i class="fa fa-html5" aria-hidden="true"></i>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 85%"
-                aria-valuenow="10" aria-valuemin="0" aria-valuemax="100">85%</div>
-        </div>
-        CSS <i class="fa fa-css3" aria-hidden="true"></i>
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 70%"
-                aria-valuenow="25" aria-valuemin="0" aria-valuemax="100">70%</div>
-        </div>
-        JavaScript
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 80%"
-                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">80%</div>
+    <h1>Karya</h1>
+        <div class="card-group shadow-lg">
+            <div class="card pt-3 bg-dark" style="width: 18rem;">
+                <img class="card-img-top ml-auto mr-auto" src="{{ ('img/bm.png') }}" alt="Card image cap"
+                    style="width: 21rem;">
+                <div class="card-body text-center">
+                    <h4>Aplikasi Kasir</h4>
+                    <p class="card-text">
+                        Aplikasi Bagus Mart menggunakan bahasa pemrograman Java
+                    </p>
+                </div>
+            </div>
+            <div class="card pt-3 bg-dark" style="width: 18rem;">
+                <img class="card-img-top ml-auto mr-auto" src="{{ ('img/bot.png') }}" alt="Card image cap"
+                    style="width: 12rem;">
+                <div class="card-body text-center">
+                    <h4>Bot Telegram</h4>
+                    <p class="card-text">
+                        Membuat bot telegram dengan bahasa Python
+                    </p>
+                </div>
+            </div>
+            <div class="card pt-3 bg-dark" style="width: 18rem;">
+                <img class="card-img-top ml-auto mr-auto" src="{{ ('img/xd.png') }}" alt="Card image cap"
+                    style="width: 18rem; height: 14rem;">
+                <div class="card-body text-center">
+                    <h4>Mockup Web JBL</h4>
+                    <p class="card-text">
+                        Membuat mockup web JBL dengan Adobe XD
+                    </p>
+                </div>
+            </div>
         </div>
         <br>
-        <h1>Back End</h1>
-        Java
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-info" role="progressbar" style="width: 50%"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">65%</div>
-        </div>
-        PHP
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" style="width: 40%"
-                aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">40%</div>
-        </div>
-        Python
-        <div class="progress">
-            <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" style="width: 15%"
-                aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">15%</div>
-        </div>
     </div>
     <br>
 </div>
